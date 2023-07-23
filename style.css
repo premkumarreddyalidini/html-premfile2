@@ -7,7 +7,7 @@
 }
 
 body{
-    background-color:lightblue;
+    background-color:;
 }
 
 .Card{
@@ -46,8 +46,8 @@ body{
     outline: 0;
     background: #ebfffc;
     border-radius: 100%;
-    width: 70px;
-    height: 50px;
+    width: 60px;
+    height: 30px;
     cursor: pointer;
 }
 
