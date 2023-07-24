@@ -7,11 +7,11 @@
 }
 
 body{
-    background-color:lightblue;
+    background-color:;
 }
 
 .Card{
-    width: 100%;
+    width: 90%;
     max-width: 470px;
     background: linear-gradient(135deg, #00feba, #5b548a);
     color: #fff;
@@ -108,4 +108,9 @@ body{
 
 .error{
     display: none;
+}
+@media screen and (max-width: 600px) {
+    .Card {
+        max-width: 90%;
+    }
 }
