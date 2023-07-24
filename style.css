@@ -7,7 +7,7 @@
 }
 
 body{
-    background-color:;
+    background-color:lightblue;
 }
 
 .Card{
@@ -109,8 +109,6 @@ body{
 .error{
     display: none;
 }
-@media screen and (max-width: 600px) {
-    .Card {
-        max-width: 90%;
-    }
-}
+@media screen and (min-width: 0px) and (max-width:480px ){
+    .Card {width: fit-content;}
+  }
